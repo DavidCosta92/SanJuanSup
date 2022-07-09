@@ -30,6 +30,11 @@ body{
     border-radius: 10px;    
     padding: 6px;
 }
+#seccionInteresante .tips{
+    background-image: url("../resources/img/slider/1.jpg");
+    background-size: cover
+
+}
 
 #seccionInteresante .interesante{
     padding-bottom: 15px;
@@ -42,6 +47,7 @@ body{
     margin: 10px;
     margin-top: 0;
     padding-top: 15px;
+    padding-top: 30px;
 }
 #seccionInteresante .interesante .contenidoSeccion li{
     list-style:circle;
@@ -50,7 +56,10 @@ body{
     padding-bottom: 15px;
 }
 
-
+#seccionInteresante .tips{
+    background-color: grey;
+    padding: 10px;
+}
 #seccionInteresante .tips .tituloSeccion{
     font-size: 1.3rem;
     font-weight: 800;
@@ -58,20 +67,31 @@ body{
     color: orange;
     margin: 10px;
     margin-top: 0;
-    padding-top: 15px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
 }
 
 #seccionInteresante .tips .contenidoSeccion li{
     list-style:disc;
+    text-align: center;
     color: orange;
     margin: 10px;
-    padding-bottom: 15px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+
+}
+#seccionSlider .carousel-caption{
+    padding-bottom: 0;
 }
 
-#seccionSlider{
-
+#seccionSlider .carousel-caption p{
+    font-size: 0.9rem;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    
 }
-
 
 #introSup .texto{
     color: orange;
@@ -84,6 +104,8 @@ body{
     font-weight: 800;
     margin-top: 0;
     padding-top: 15px;
+    text-decoration: underline;
+    padding-top: 30px;
 }
 
 #introSup .texto .contenidoSeccion{
@@ -102,6 +124,7 @@ body{
     padding-bottom: 10;
     color: orange;
     text-decoration: underline;
+    padding-top: 30px;
 }
 
 #seccionExperiencias .titulo{
@@ -155,6 +178,37 @@ body{
     width: 100vw;
     margin: auto;
 }
+#seccionUbicacion .gps{
+    display: flex;
+    justify-content:center;
+    vertical-align: bottom;
+}
+
+#seccionUbicacion .gps img{
+    max-width: 35px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+#seccionUbicacion .gps a{
+    text-decoration-color: white;
+}
+#seccionUbicacion .gps p{
+    color: white;
+    margin: 0;
+    margin-top: 5px;
+    line-height: 1;
+    font-weight: 600;
+}
+#seccionUbicacion .mapa{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+#seccionUbicacion .mapa iframe{
+    width: 85%;
+    max-width: 600px;
+}
+
 #seccionUbicacion .titulo{
     font-size: 1.3rem;
     font-weight: 800;
@@ -163,6 +217,8 @@ body{
     margin: 10px;
     margin-top: 0;
     padding-top: 15px;
+    text-decoration: underline;
+    padding-top: 30px;
 }
 
 #seccionUbicacion .contenido{
@@ -174,7 +230,12 @@ body{
     padding-top: 15px;
     
 }
-
+#seccionClima{
+    max-width: 600px;
+    width: 85%;
+    margin: auto;
+    padding: 10px;
+}
 
 #seccionClima .titulo{
     font-size: 1.3rem;
@@ -184,4 +245,35 @@ body{
     margin: 10px;
     margin-top: 0;
     padding-top: 15px;
+    text-decoration: underline;
+    padding-top: 30px;
+}
+
+#seccionFormulario{
+
+
+}
+#seccionFormulario .titulo{
+    font-size: 1.3rem;
+    font-weight: 800;
+    text-align: center;
+    color: orange;
+    margin: 10px;
+    margin-top: 0;
+    padding-top: 15px;
+    text-decoration: underline;
+    padding-top: 30px;
+}
+
+#seccionFormulario form{
+    background-image: url("../resources/img/slider/2.jpg");
+    background-size: cover;
+    width: 85%;
+    margin: auto;
+    padding: 10px;
+}
+
+#seccionFormulario form label{
+    color: white;
+    font-weight: 600;
 }
