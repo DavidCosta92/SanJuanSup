@@ -12,6 +12,7 @@ body{
 #seccionNav .nav-link{
     font-weight: 600;
     text-align: center;
+    color: orange;
 }
 
 #seccionFotoHero{
@@ -234,7 +235,7 @@ body{
     max-width: 600px;
     width: 85%;
     margin: auto;
-    padding: 10px;
+    margin-bottom: 30px;
 }
 
 #seccionClima .titulo{
@@ -250,30 +251,76 @@ body{
 }
 
 #seccionFormulario{
-
-
+    background-image: url("../resources/img/slider/2.jpg");
+    background-size: cover;
 }
 #seccionFormulario .titulo{
     font-size: 1.3rem;
     font-weight: 800;
     text-align: center;
     color: orange;
-    margin: 10px;
-    margin-top: 0;
-    padding-top: 15px;
+    padding: 20px;
     text-decoration: underline;
-    padding-top: 30px;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 #seccionFormulario form{
-    background-image: url("../resources/img/slider/2.jpg");
-    background-size: cover;
     width: 85%;
     margin: auto;
-    padding: 10px;
+    padding: 30px;
+    max-width: 600px;
+
 }
 
 #seccionFormulario form label{
     color: white;
     font-weight: 600;
+}
+
+#seccionFormulario form button{
+    border-width: 2px;
+    border-color: white;
+    background-color:rgba(0, 0, 0, 0.4);
+    color: white;
+    font-weight: 700;
+}
+
+.redesSociales{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    vertical-align:middle;
+    padding-top: 30px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-weight: 500;
+}
+
+.redesSociales .logosRedes .redSocial{
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+
+.redesSociales .logosRedes .redSocial img{
+    max-width: 40px;
+    margin: 0 0 10px 0;
+}
+.redesSociales .logosRedes .redSocial a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+
+
+}
+.redesSociales .logoqr p{
+    margin: 0;
+    text-align: center;
+}
+
+.redesSociales .logoqr{
+    max-width: 100px;
+    padding: 0 15px 15px 15px;
+
 }
